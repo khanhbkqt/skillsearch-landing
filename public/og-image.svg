@@ -1,0 +1,55 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="text" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="glow1">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="glow2">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- Glowing orbs -->
+  <circle cx="200" cy="150" r="150" fill="url(#glow1)"/>
+  <circle cx="1000" cy="480" r="180" fill="url(#glow2)"/>
+  
+  <!-- Content -->
+  <text x="100" y="200" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="url(#text)">
+    OpenClaw Skill Search
+  </text>
+  
+  <text x="100" y="280" font-family="Arial, sans-serif" font-size="36" fill="#9ca3af">
+    Lightning-fast semantic search for 6,700+ skills
+  </text>
+  
+  <!-- Stats -->
+  <g transform="translate(100, 380)">
+    <rect width="280" height="120" rx="16" fill="rgba(99, 102, 241, 0.1)" stroke="rgba(99, 102, 241, 0.3)" stroke-width="2"/>
+    <text x="140" y="50" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#text)" text-anchor="middle">6,706</text>
+    <text x="140" y="85" font-family="Arial, sans-serif" font-size="20" fill="#9ca3af" text-anchor="middle">Skills Indexed</text>
+  </g>
+  
+  <g transform="translate(420, 380)">
+    <rect width="280" height="120" rx="16" fill="rgba(139, 92, 246, 0.1)" stroke="rgba(139, 92, 246, 0.3)" stroke-width="2"/>
+    <text x="140" y="50" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#text)" text-anchor="middle">&lt;10ms</text>
+    <text x="140" y="85" font-family="Arial, sans-serif" font-size="20" fill="#9ca3af" text-anchor="middle">Query Time</text>
+  </g>
+  
+  <g transform="translate(740, 380)">
+    <rect width="280" height="120" rx="16" fill="rgba(236, 72, 153, 0.1)" stroke="rgba(236, 72, 153, 0.3)" stroke-width="2"/>
+    <text x="140" y="50" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#text)" text-anchor="middle">100%</text>
+    <text x="140" y="85" font-family="Arial, sans-serif" font-size="20" fill="#9ca3af" text-anchor="middle">Local</text>
+  </g>
+</svg>
